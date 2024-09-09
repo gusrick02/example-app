@@ -10,4 +10,4 @@ use Illuminate\Support\Facades\Route;
  Route::delete('/receitas/{id}', [ReceitaController::class, 'destroy']);
 
    
-   
+   //para salvar
