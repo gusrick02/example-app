@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 
  Route::apiResource('receita', ReceitaController::class );
  Route::post('/receitas', [ReceitaController::class, 'store']);
+ Route::delete('/receitas/{id}', [ReceitaController::class, 'destroy']);
 
    
    
